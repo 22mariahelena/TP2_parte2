@@ -13,5 +13,7 @@ public class Main {
         System.out.println("Peso: " + pessoa.getPeso());
         System.out.println("Altura: " + pessoa.getAltura());
         System.out.println("IMC: " + pessoa.calcularIMC());
+        System.out.println("Classificação: " + pessoa.classificarIMC());
+        System.out.println("Dados pessoais: \n" + pessoa);
     }
 }
